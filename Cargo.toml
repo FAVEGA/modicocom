@@ -1,0 +1,8 @@
+[package]
+name = "concom"
+version = "0.1.0"
+authors = ["Adrian Utrilla <adrianutrilla@gmail.com>"]
+
+[dependencies]
+csv = "0.15.0"
+clap = "2.19"
