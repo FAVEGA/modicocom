@@ -5,7 +5,6 @@ environment:
       target: x86_64-pc-windows-msvc
     - channel: stable
       target: i686-pc-windows-msvc
-matrix:
 install:
   - appveyor DownloadFile https://win.rustup.rs/ -FileName rustup-init.exe
   - rustup-init -yv --default-toolchain %channel% --default-host %target%
